@@ -1,0 +1,83 @@
+
+Microsoft Windows [version 10.0.19041.685]
+(c) 2020 Microsoft Corporation. Tous droits réservés.
+
+C:\helloWorld>javac HelloWorld.java
+
+C:\helloWorld>java HelloWorld
+Hello world
+
+C:\helloWorld>git init
+Initialized empty Git repository in C:/helloWorld/.git/
+
+C:\helloWorld>git add .
+
+C:\helloWorld>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   HelloWorld.java
+
+
+C:\helloWorld>git commit -m "first commit"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'karim@karwin10pro.(none)')
+
+C:\helloWorld>git branch -M main
+
+C:\helloWorld>git remote add origin https://github.com/karim78-93000/hello.git
+
+C:\helloWorld>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/karim78-93000/hello.git'
+
+C:\helloWorld>
+C:\helloWorld>
+
+C:\helloWorld>  git config --global user.email 'karim@karwin10pro.com'
+
+C:\helloWorld>  git config --global user.name karim
+
+C:\helloWorld>
+C:\helloWorld>git commit -m "first commit"
+[main (root-commit) 96b0175] first commit
+ 1 file changed, 15 insertions(+)
+ create mode 100644 HelloWorld.java
+
+
+C:\helloWorld>
+C:\helloWorld>git branch -M main
+
+
+C:\helloWorld>git remote add origin https://github.com/karim78-93000/hello.git
+error: remote origin already exists.
+
+
+C:\helloWorld>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 383 bytes | 383.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/karim78-93000/hello.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
+C:\helloWorld>

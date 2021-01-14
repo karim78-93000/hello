@@ -8,7 +8,7 @@ public class HelloWorld {
 
     // Affichage du commentaire Hello world dans la fenêtre de commande
 
-    System.out.println("Hello world");
+    System.out.println("Hello world 2");
 
   }
 
